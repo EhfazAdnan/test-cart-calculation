@@ -82,8 +82,8 @@ echo "Test 1: AABBCABD → ";
 echo calculatePriceOfCart("AABBCABD", $pricingRules);
 echo "\n";
 
-$aPrice = calculatePriceOfCart('AABBCABD', $pricingRules);
-echo $aPrice;
+echo "Test 1: BAB → ";
+echo calculatePriceOfCart('BAB', $pricingRules);
 echo "\n";
 
 ?>

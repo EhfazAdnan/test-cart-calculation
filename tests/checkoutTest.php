@@ -47,6 +47,12 @@ final class checkoutTest extends TestCase
         $price = calculatePriceOfCart('AABBCABD', $this->pricingRules);
         $this->assertEquals(230, $price);
     }
+
+    public function testMixedItemsRandomOrder(): void
+    {
+        $price = calculatePriceOfCart('BAB', $this->pricingRules);
+        $this->assertEquals(95, $price);
+    }
 }
 
 ?>
