@@ -1,0 +1,1 @@
+{"version":2,"defects":{"checkoutTest::testMixedItemsInOrder":7},"times":{"CheckoutTest::testEmptyCartReturns0":0.013,"checkoutTest::testEmptyCartReturnsO":0.01,"checkoutTest::testSingleItemA":0,"checkoutTest::testMultipleAs":0,"checkoutTest::testMixedItemsInOrder":0.019}}
